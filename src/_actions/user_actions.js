@@ -65,7 +65,7 @@ export function addToCart(_id) {
 
 
 export function getCartItems(cartItems, userCart) {
-    const request = axios.get(`/api/product/products_by_id?id=${cartItems}&type=array`)
+    const request = axios.get(`http://ec2-52-90-238-175.compute-1.amazonaws.com/product/products_by_id?id=${cartItems}&type=array`)
         .then(response => {
 
 
@@ -93,7 +93,7 @@ export function getCartItems(cartItems, userCart) {
 
 
 export function removeCartItem(id) {
-    const request = axios.get(`/api/users/removeFromCart?_id=${id}`)
+    const request = axios.get(`http://ec2-52-90-238-175.compute-1.amazonaws.com/users/removeFromCart?_id=${id}`)
         .then(response => {
 
             response.data.cart.forEach(item => {
