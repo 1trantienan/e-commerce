@@ -10,8 +10,8 @@ function ProductImage(props) {
 
             props.detail.images && props.detail.images.map(item => {
                 images.push({
-                    original: `http://localhost:5000/${item}`,
-                    thumbnail: `http://localhost:5000/${item}`
+                    original: `http://wheyshop-env.eba-bcd3g6mx.us-east-1.elasticbeanstalk.com/${item}`,
+                    thumbnail: `http://wheyshop-env.eba-bcd3g6mx.us-east-1.elasticbeanstalk.com/${item}`
                 })
             })
             setImages(images)

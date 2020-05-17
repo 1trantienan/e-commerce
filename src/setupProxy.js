@@ -4,7 +4,7 @@ module.exports = function (app) {
     app.use(
         '/api',
         createProxyMiddleware({
-            target: 'http://localhost:5000',
+            target: 'http://wheyshop-env.eba-bcd3g6mx.us-east-1.elasticbeanstalk.com/',
             changeOrigin: true,
         })
     );

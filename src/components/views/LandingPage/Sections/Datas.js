@@ -34,39 +34,39 @@ const price = [
 
 
 
-const continents = [
+const brands = [
     {
         "_id": 1,
-        "name": "Africa"
+        "name": "NAKED NUTRITION"
     },
     {
         "_id": 2,
-        "name": "Europe"
+        "name": "NITROTECH"
     },
     {
         "_id": 3,
-        "name": "Asia"
+        "name": "GARDEN OF LIFE"
     },
     {
         "_id": 4,
-        "name": "North America"
+        "name": "RSP NUTRITION"
     },
     {
         "_id": 5,
-        "name": "South America"
+        "name": "CELLUCOR"
     },
     {
         "_id": 6,
-        "name": "Australia"
+        "name": "MUSCLEPHARM"
     },
     {
         "_id": 7,
-        "name": "Antarctica"
+        "name": "LEGION ATHLETICS"
     }
 ]
 
 
 export {
     price,
-    continents
+    brands
 }
